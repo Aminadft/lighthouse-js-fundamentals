@@ -1,19 +1,12 @@
-const raining = true;
-const cold = false;
-
-if (raining) {
-  console.log("Don't forget your umbrella!");
-}
-
-if (cold) {
-  console.log("Make sure you pick out a scarf!");
-}
-
-console.log("Now you're ready to go outside!");
-
-const isCitizen = true;
-const age = 26;
-
-if (isCitizen && age > 18) {
-  console.log("You are eligible to vote.");
+const whichSchool  = function (age) {
+  //which school and age selection//
+  if (age < 13) {
+    return ("Elementary School");
+  }
+  else if (age >= 13 && age <= 18) {
+    return ("Secondary School");
+  }
+else if (age >= 19) {
+  return ("Lighthouse Labs");
+ }
 }
