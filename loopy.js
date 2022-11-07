@@ -1,12 +1,14 @@
-for (let i = 100; i <= 200; i++) {
-  let output = '';
-  
-    if (i % 3 === 0) {
-      output += 'Loopy'
-    } 
-    if (i % 4 === 0) {
-      output += 'Lighthouse';
-    }
-  
-    console.log(output || i);
+let number = 100;
+for (number = 100; number <= 200; number++) {
+  if (number % 3 && number % 4) 
+  {
+    console.log("LoopyLighthouse");
+  }else if (number % 4)
+  {
+    console.log("lighthouse");
+  }else if(number % 3){
+    console.log("Loopy");
+  } else {
+    console.log(number)
   }
+}
