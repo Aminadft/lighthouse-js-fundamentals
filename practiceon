@@ -1,0 +1,4 @@
+
+var HaikuPoem = "Blowing from the west"+"\nFallen leaves gather"+"\nIn the east.";
+console.log("Blowing from the west"+"\nFallen leaves gather"+"\nIn the east.");
+console.log("Blowing from the west"+"\nFallen leaves gather"+"\nIn the east.");
