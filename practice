@@ -1,0 +1,9 @@
+function calculateAge(name, birthYear, currentYear) {
+  const Name = "Amina";
+  birthYear = 1984;
+  currentYear = 2022;
+  var age = currentYear - birthYear;
+
+  console.log('You are either ' + age + ' or ' + (age - 1));
+}
+console.log(ageCalculator("Amina", 1984, 2022));
