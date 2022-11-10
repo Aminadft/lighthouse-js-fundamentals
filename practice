@@ -1,9 +1,16 @@
-function calculateAge(name, birthYear, currentYear) {
-  const Name = "Amina";
-  birthYear = 1984;
-  currentYear = 2022;
-  var age = currentYear - birthYear;
+let name = " ";
+let yearOfBirth = 0;
+let currentYear = 0;
 
-  console.log('You are either ' + age + ' or ' + (age - 1));
+
+let ageCalculator = function(name, yearOfBirth, currentYear) {
+  let currentAge = currentYear - yearOfBirth;
+  let age = ""
+  age = name + " is " + currentAge + " years old."
+  return age;
 }
-console.log(ageCalculator("Amina", 1984, 2022));
+
+
+console.log(ageCalculator("Miranda", 1983, 2015));
+console.log(ageCalculator("Ferdinand", 1988, 2015));
+console.log(ageCalculator("Suzie", 1983, 2015));
